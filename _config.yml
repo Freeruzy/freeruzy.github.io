@@ -78,5 +78,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  url: https://github.com/Freeruzy/freeruzy.github.io.git
+  repo: https://github.com/Freeruzy/freeruzy.github.io.git
   branch: master
