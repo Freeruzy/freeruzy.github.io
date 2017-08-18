@@ -80,3 +80,7 @@ deploy:
   type: git
   repo: https://github.com/Freeruzy/blog.git
   branch: master
+
+search:
+  path: search.xml
+  field: post
