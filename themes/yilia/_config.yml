@@ -1,8 +1,9 @@
 # Header
 
 menu:
-  主页: /
-  相册: /photos/
+  主页: https://freeruzy.github.io/
+  文章: /
+  诗集: /articles/
 
 # SubNav
 subnav:
@@ -33,7 +34,7 @@ root: /blog/
 # Content
 
 # 文章太长，截断按钮文字
-excerpt_link: more
+excerpt_link: 更多
 # 文章卡片右下角常驻链接，不需要请设置为false
 show_all_link: '展开全文'
 # 数学公式
@@ -45,11 +46,11 @@ open_in_new: false
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 2
 # 打赏wording
-reward_wording: '谢谢你请我吃糖果'
+reward_wording: '谢谢与我共勉'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: /assets/img/alipay.jpg
+alipay: https://freeruzy.github.io/blog/img/alipay.jpg
 # 微信二维码图片地址
-weixin: /assets/img/weixinpay.jpg
+weixin: https://freeruzy.github.io/blog/img/weixinpay.jpg
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
@@ -65,10 +66,10 @@ top: true
 # Miscellaneous
 baidu_analytics: ''
 google_analytics: ''
-favicon: /assets/img/avatar.jpg
+favicon: /img/avatar.jpg
 
 #你的头像url
-avatar: /assets/img/avatar.jpg
+avatar: https://freeruzy.github.io/blog/img/avatar.jpg
 
 #是否开启分享
 share_jia: true
@@ -112,8 +113,8 @@ smart_menu:
   aboutme: '关于我'
 
 friends:
-  Games: https://freeruzy.github.io/mywebapp/game
-  Hack_Icon: https://freeruzy.github.io/mywebapp/hack_bg
-  Times: http://freeruzy.github.io/mywebapp/love
+  小游戏: https://freeruzy.github.io/mywebapp/game
+  Free粒子背景特效: https://freeruzy.github.io/mywebapp/hack_bg
+  记忆大学时光: http://freeruzy.github.io/mywebapp/love
 
 aboutme: 很惭愧<br>晚年开始记录学习生活<br>专注于自由开发共享<br>谢谢大家
