@@ -36,7 +36,7 @@
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
-            <% site.tags.forEach(function(tag, i){ %> 
+            <% site.tags.forEach(function(tag, i){ %>
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color<%= tag.name.length % 5 + 1 %>"><%-tag.name%></a>
               </li>
@@ -70,7 +70,7 @@
 </pre>
           </p>
           <li class="search-li" q-repeat="items" q-show="isShow">
-            <a q-attr="href:path|urlformat" class="search-title"><i class="icon-quo-left icon"></i><span q-text="title"></span></a>
+            <a q-attr="href:path" class="search-title"><i class="icon-quo-left icon"></i><span q-text="title"></span></a>
             <p class="search-time">
               <i class="icon-calendar icon"></i>
               <span q-text="date|dateformat"></span>
@@ -106,5 +106,5 @@
     	</section>
     <%}%>
   </div>
-  
+
 </div>
